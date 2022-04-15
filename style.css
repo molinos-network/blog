@@ -1,0 +1,21 @@
+
+/*
+    This is the main CSS file.
+    It only sets some props for the optional
+    footer link. All the other styling is done
+    in the current theme's CSS file!
+*/
+
+#footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+    opacity: 0.5;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+#footer-link a {
+    font-weight: bold;
+}
